@@ -22,11 +22,9 @@
 
 <body>
     <div id="app">
-        <main class="py-4">
-            @yield('header')
-            @yield('content')
-            @yield('footer')
-        </main>
+        @yield('header')
+        @yield('content')
+        @yield('footer')
     </div>
 
     @yield('importjs')
