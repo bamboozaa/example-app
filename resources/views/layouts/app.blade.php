@@ -11,8 +11,8 @@
     <title>@yield('title')</title>
 
     <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
+    {{-- <link rel="dns-prefetch" href="//fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet"> --}}
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
@@ -22,11 +22,9 @@
 
 <body>
     <div id="app">
-        <main class="py-4">
-            @yield('header')
-            @yield('content')
-            @yield('footer')
-        </main>
+        @yield('header')
+        @yield('content')
+        @yield('footer')
     </div>
 
     @yield('importjs')
