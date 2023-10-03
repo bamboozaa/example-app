@@ -22,6 +22,29 @@
     font-family: 'Poppins-regular' !important;
 }
 
+section {
+    padding: 80px 0;
+    min-height: 400px;
+    box-sizing: border-box;
+}
+
+.section-title {
+    font-family: 'Poppins-bold' !important;
+    font-size: 30px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.section-title:before {
+    content: '';
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    background-color: #FF715D;
+}
+
 body {
     height: 3000px;
 }
@@ -134,4 +157,56 @@ body {
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 90% 90%;
+}
+
+/* Start Features Section Styles */
+.features-section .card {
+    padding: 40px 50px;
+    background-color: #fff;
+    border: 0;
+    -webkit-box-shadow: 0px 0px 6px #ececec;
+    -moz-box-shadow: 0px 0px 6px #ececec;
+    -o-box-shadow: 0px 0px 6px #ececec;
+    box-shadow: 0px 0px 6px #ececec;
+}
+
+.features-section .card:hover {
+    -webkit-box-shadow: 0px 20px 40px 1px #ccc;
+    -moz-box-shadow: 0px 20px 40px 1px #ccc;
+    -o-box-shadow: 0px 20px 40px 1px #ccc;
+    box-shadow: 0px 20px 40px 1px #ccc;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.features-section .card:hover a {
+    color: #FF715D;
+}
+
+.features-section .card .icon {
+    margin-bottom: 16px;
+}
+
+.features-section .card .icon i {
+    font-size: 45px;
+    color: #FF715D;
+}
+
+.features-section .card h3 {
+    font-family: 'Poppins-medium' !important;
+    color: #132339;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.features-section .card p {
+    color: #565c64;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.features-section .card a {
+    color: #132339;
+    font-family: 'Poppins-medium' !important;
+    text-decoration: none;
 }
