@@ -210,3 +210,49 @@ body {
     font-family: 'Poppins-medium' !important;
     text-decoration: none;
 }
+
+/* Start About us Section Style */
+
+.aboutus-section {
+    padding: 50px 0;
+    background-color: #F9FDFA;
+}
+
+.aboutus-section .left-part {
+    width: 100%;
+    min-height: 400px;
+}
+
+.aboutus-section .left-part img {
+    width: 80%;
+}
+
+.aboutus-section .right-part {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutus-section .right-part h3 {
+    font-family: 'Poppins-bold' !important;
+    font-size: 30px;
+    width: 80%;
+    margin-bottom: 24px;
+    color: #132339;
+}
+
+.aboutus-section .right-part p {
+    font-size: 15px;
+    color: #565c64;
+    margin-bottom: 32px;
+}
+
+.aboutus-section .right-part a.btn {
+    max-width: 200px;
+    padding: 10px 20px;
+    background-color: #FF715D;
+    color: #fff;
+    border-radius: 50px;
+}

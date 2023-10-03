@@ -126,6 +126,36 @@
                 </div>
             </section>
             <!-- End Features Section -->
+
+            <!-- Start About us Section -->
+
+            <section class="aboutus-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="left-part">
+                                <img src="../images/about-us.svg" alt="about-us-image">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="right-part">
+                                <h3>
+                                    Awesome App for you business growth
+                                </h3>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                been the industry
+                                </p>
+                                <a href="" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- End About us Section -->
+
         </div>
     </div>
 
